@@ -8,4 +8,13 @@ object Form1: TForm1
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
+  object Calendar1: TCalendar
+    Date = 45374.000000000000000000
+    Position.X = 120.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 180.000000000000000000
+    Size.Height = 160.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
 end

@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Classes;
 
 type
-  TDataModule1 = class(TDataModule)
+  TPyModule = class(TDataModule)
+
   private
     { Private declarations }
   public
@@ -14,7 +15,7 @@ type
   end;
 
 var
-  DataModule1: TDataModule1;
+  PyModule: TPyModule;
 
 implementation
 

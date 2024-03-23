@@ -196,7 +196,7 @@
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="UnitPyModule.pas">
-            <Form>DataModule1</Form>
+            <Form>PyModule</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
