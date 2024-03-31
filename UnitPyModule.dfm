@@ -24,4 +24,18 @@ object PyModule: TPyModule
     Left = 288
     Top = 16
   end
+  object Folium1: TFolium
+    PythonEngine = PythonEngine1
+    PyEnvironment = PyEmbeddedEnvironment1
+    ManagerKind = pip
+    Left = 144
+    Top = 88
+  end
+  object Meteostat1: TMeteostat
+    PythonEngine = PythonEngine1
+    PyEnvironment = PyEmbeddedEnvironment1
+    ManagerKind = pip
+    Left = 248
+    Top = 96
+  end
 end

@@ -4,12 +4,14 @@ interface
 
 uses
   System.SysUtils, System.Classes, PythonEngine, PyEnvironment,
-  PyEnvironment.Embeddable;
+  PyEnvironment.Embeddable, PyCommon, PyModule, PyPackage, Folium, Meteostat;
 type
   TPyModule = class(TDataModule)
     PythonEngine1: TPythonEngine;
     PythonModule1: TPythonModule;
     PyEmbeddedEnvironment1: TPyEmbeddedEnvironment;
+    Folium1: TFolium;
+    Meteostat1: TMeteostat;
     procedure PythonModule1Initialization(Sender: TObject);
 
   private
